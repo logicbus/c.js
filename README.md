@@ -26,13 +26,13 @@ The c() function accepts up to three parameters:
 
 `inDisplay` is used to control how multi-level objects are collapsed and expanded. (This uses console.group() and console.groupCollapsed().) Six values are specified, and any other value will be treated as default:
 
-`topexpanded  `: The top level object is expanded and everything below it is collapsed.
-`topcollapsed `: The top level object is collapsed and everything below it is expanded.
-`allcollapsed `: All levels are collapsed. 
-`collapsed    `: All levels are collapsed. 
-`allexpanded  `: All levels are expanded. 
-`expanded     `: All levels are expanded. 
-`other/blank  `: All levels are expanded.
+	* `topexpanded  `: The top level object is expanded and everything below it is collapsed.
+	* `topcollapsed `: The top level object is collapsed and everything below it is expanded.
+	* `allcollapsed `: All levels are collapsed. 
+	* `collapsed    `: All levels are collapsed. 
+	* `allexpanded  `: All levels are expanded. 
+	* `expanded     `: All levels are expanded. 
+	* `other/blank  `: All levels are expanded.
 
 
 
