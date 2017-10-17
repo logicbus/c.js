@@ -1,8 +1,8 @@
 function c(value, label, inDisplay) {
 	var display = inDisplay;
 	var passedDisplay = display;
-	switch (typeof(value)) {
-		case 'object' :
+	switch (Object.prototype.toString.call(value)) {
+		case '[object Object]' :
 			if (value == null) {
 				try {
 					console.log('null');
